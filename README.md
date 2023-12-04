@@ -2,7 +2,7 @@
 Fine-tune Whisper for Swedish.
 
 ## Model
-https://huggingface.co/GroupSix/whisper-small-sv
+https://huggingface.co/martenb/whisper-small-sv
 
 ## Hugging Face App
 ### Language
