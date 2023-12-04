@@ -1,0 +1,3 @@
+[submodule "hugging_face_spaces/language"]
+	path = hugging_face_spaces/language
+	url = git@hf.co:spaces/GroupSix/language

@@ -1,0 +1,26 @@
+#If you have windows, install twofish
+#twofish
+hopsworks
+joblib
+scikit-learn==1.1.1
+seaborn
+dataframe-image
+modal
+gradio==3.14
+chardet
+# Might be needed:
+# pip install -U --force-reinstall charset-normalizer
+# pip install --upgrade mistune
+# https://github.com/d2l-ai/d2l-book/issues/46
+jinja2==3.0.3
+# Missing
+pandas
+matplotlib
+# Extra
+python-dotenv
+# Images
+ipython
+imbalanced-learn
+# Transformers
+tensorflow
+transformers==4.35.2
