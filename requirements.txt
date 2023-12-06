@@ -1,26 +1,22 @@
-#If you have windows, install twofish
-#twofish
-hopsworks
-joblib
-scikit-learn==1.1.1
-seaborn
-dataframe-image
-modal
-gradio==3.14
-chardet
-# Might be needed:
-# pip install -U --force-reinstall charset-normalizer
-# pip install --upgrade mistune
-# https://github.com/d2l-ai/d2l-book/issues/46
-jinja2==3.0.3
-# Missing
-pandas
-matplotlib
-# Extra
-python-dotenv
-# Images
-ipython
-imbalanced-learn
-# Transformers
-tensorflow
+# https://pytorch.org/get-started/locally/
+# pip install torch torchvision torchaudio
+# pip freeze | grep -E '(torch|torchvision|torchaudio)==' >> requirements.txt
+torch==2.1.1
+torchaudio==2.1.1
+torchvision==0.16.1
+# https://www.gradio.app/guides/quickstart
+# pip install gradio
+# pip freeze | grep gradio== >> requirements.txt
+gradio==4.7.1
+# https://huggingface.co/docs/transformers/installation
+# pip install transformers
+# pip freeze | grep transformers== >> requirements.txt
 transformers==4.35.2
+# https://jupyter.org/install
+# pip install notebook
+# pip freeze | grep notebook== >> requirements.txt
+notebook==7.0.6
+# https://pypi.org/project/yt-dlp/
+# pip install yt-dlp
+# pip freeze | grep yt-dlp== >> requirements.txt
+yt-dlp==2023.11.16

@@ -3,3 +3,9 @@
 
 # Logs
 *.log
+
+# Jupyter Notebook
+/.ipynb_checkpoints
+
+# Downloaded files
+/download
