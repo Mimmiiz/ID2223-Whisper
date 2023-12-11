@@ -31,3 +31,13 @@ script:
 ```bash
 ./push_hugging_face_language.sh
 ```
+
+## Model Improvements
+One recurrent problem with our model is that it often confuses Swedish for Norwegian.  To mitigate this problem and to improve accuracy, we present some potential improvements that can be made. 
+### Model-centric approach
+
+### Data-centric approach
+One way to improve model performance is to increase the amount of training data [[1](https://machinelearningmastery.com/improve-deep-learning-performance/), [2](https://iopscience.iop.org/article/10.1088/1742-6596/1168/2/022022/pdf)]. Increasing the training size is especially useful for complicated models, for instance, DNNs. Using larger a larger dataset means that we can obtain a more diverse range of samples. Having diverse data helps the model generalize better to unseen data, and we reduce the chance of overfitting.
+
+The National Library of Norway offers data suitable for Automatic Speech Recognition (ASR). The data is available at: [NST Swedish ASR Database (16 kHz)](https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-56/). The dataset contains 124.2 GB of speech recordings in Swedish. Currently, our model is only trained on 7.41k rows of data, while the NST dataset consists of over 300k rows of data. Only selecting a subset of the NST dataset for training could potentially increase the accuracy of our model. However, the downside of increasing the training data size is that it would take longer to train.
+
