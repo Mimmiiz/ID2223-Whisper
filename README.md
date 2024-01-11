@@ -46,5 +46,3 @@ The National Library of Norway offers data suitable for Automatic Speech Recogni
 For a model-centric approach to fine-tuning Whisper for a specific language like Swedish, several strategies can be 
 considered. These include adjusting learning rates, and experimenting with batch sizes. However, we were unable to test 
 and validate a model-centric approach within the timeframe of our project.
-
-```
